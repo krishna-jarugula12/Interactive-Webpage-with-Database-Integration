@@ -1,0 +1,41 @@
+/* Main container for the form */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    min-height: 100vh; /* Set the container to take up the entire viewport height */
+  }
+  
+  /* Style for the form */
+  form {
+    display: grid;
+    gap: 6px; /* Adjust the gap as needed */
+  }
+  
+  
+  /* Style for labels */
+ /* Style for labels */
+label {
+    margin-bottom: 20px; /* Adjust margin as needed */
+    font-weight: bold;
+  }
+  
+  
+  /* Style for input fields */
+  .input-field {
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Style for the submit button */
+  button[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end; /* Align the button to the end of the flex container */
+  }
+  

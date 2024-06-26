@@ -1,0 +1,20 @@
+/* Style for the container holding the buttons */
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Set the container to take up the entire viewport height */
+  }
+  
+  /* Style for the buttons */
+  .button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px; /* Add some margin between buttons */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
